@@ -440,10 +440,12 @@ body{
 .project-card p {
     color: var(--color-cream);
     line-height: 1.5;
+    text-align: center;
 }
 
 .project-card a {
     color: var(--color-cream);
+    text-align: center;
 }
 
 @media (max-width: 768px) {
