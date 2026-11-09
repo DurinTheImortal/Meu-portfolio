@@ -412,7 +412,7 @@ body{
     padding: 30px;
 }
 
-.projects-container{
+.projects-container, .contatos-container{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -422,7 +422,7 @@ body{
     gap: 25px;
 }
 
-.project-card{
+.project-card, .contato-card{
     padding: 25px;
     background-color: var(--color-background);
     border-radius: 12px;
@@ -432,18 +432,18 @@ body{
     min-height: 180px;
 }
 
-.project-card h3 {
+.project-card, .contato-card h3 {
     color: var(--color-pink);
     text-align: center;
 }
 
-.project-card p {
+.project-card, .contato-card p {
     color: var(--color-cream);
     line-height: 1.5;
     text-align: center;
 }
 
-.project-card a {
+.project-card, .contato-card a {
     color: var(--color-cream);
     text-align: center;
 }
